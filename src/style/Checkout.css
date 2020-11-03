@@ -1,0 +1,26 @@
+.checkout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.checkout_left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.checkout_right{
+    width: auto;
+    margin-right: 1%;
+
+}
+
+.checkout_ad{
+    width: auto;
+    height: 200px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
