@@ -90,10 +90,7 @@ const reducer = (state,action) =>{
 
 Note:====>     
           const array1 = [5, 12, 8, 130, 44];
-
-const isLargeNumber = (element) => element > 13;
-
-console.log(array1.findIndex((element)=>element === 44));
-array1.splice(array1.findIndex((element)=>element === 44),1)
-// expected output: 3
-console.log(array1)
+        const isLargeNumber = (element) => element > 13;
+        console.log(array1.findIndex((element)=>element === 44));
+        array1.splice(array1.findIndex((element)=>element === 44),1)
+        console.log(array1)

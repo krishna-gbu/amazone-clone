@@ -4,7 +4,7 @@ import '../style/Checkout.css'
 import CheckoutProduct from './CheckoutProduct'
 import Subtotal from './Subtotal'
 
-function Checkout({value}) {
+function Checkout() {
     const [state ,] = useStatevalue()
    
     return (

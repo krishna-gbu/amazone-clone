@@ -16,9 +16,10 @@ const reducer = (state,action) =>{
             };
 
         case 'REMOVE_FROM_BASKET':
-            let newBasket = [...state.basket];
             //find id which is remove 
             const index = state.basket.findIndex((basketItem)=> basketItem.id === action.id) 
+             //create new basket for update basket
+            let newBasket = [...state.basket];
             if(index >=0){
                 ///remove id from basket item
               newBasket.splice(index,1)
@@ -28,7 +29,11 @@ const reducer = (state,action) =>{
             return {
                 ...state , basket:newBasket
             };
-
+        case 'SET_USER':
+            return {
+                ...state,
+                user:action.user
+            };
         default:
            return state;
     }

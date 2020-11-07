@@ -53,6 +53,9 @@ display: flex;
    color: wheat;
    display: flex;
    flex-direction: column;
-   text-decoration: none;
+   /* text-decoration:none; */
 }
 
+.header_nav > a {
+    text-decoration: none;
+}
